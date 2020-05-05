@@ -20,5 +20,6 @@ end
 
 def using_delete_alt(array, integer)
   array.delete_at(integer)
-  array.sort!
+  array = array.sort!
+  array
 end 
