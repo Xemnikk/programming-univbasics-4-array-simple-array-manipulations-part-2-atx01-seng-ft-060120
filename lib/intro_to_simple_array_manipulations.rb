@@ -19,5 +19,6 @@ def using_delete(array, string)
 end 
 
 def using_delete_alt(array, integer)
-  array.delete_at(index = integer)
+  array.delete_at(integer)
+  array.sort!
 end 
