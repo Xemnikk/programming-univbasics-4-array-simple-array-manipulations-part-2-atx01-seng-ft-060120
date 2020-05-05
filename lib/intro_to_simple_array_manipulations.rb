@@ -20,6 +20,5 @@ end
 
 def using_delete_alt(array, integer)
   array.delete_at(integer)
-  array
 
 end 
